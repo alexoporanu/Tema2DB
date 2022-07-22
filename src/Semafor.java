@@ -29,8 +29,6 @@ class Car extends Thread
             System.out.println("Semaphore turning red again on the South North road");
             sem.release();
         }
-
-        // run by thread B
         else
         {
             System.out.println("Starting " + category);
